@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "url": "/admin/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "name": "User Management",
+      "icon": "menu-icon tf-icons bx bx bx-user",
+      "slug": "user-management",
+      "submenu": [
+        {
+          "url": "/admin/users",
+          "name": "Users",
+          "slug": "users"
+        }
+      ]
+    }
+  ]
+}
